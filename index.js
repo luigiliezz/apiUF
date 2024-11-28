@@ -1,5 +1,5 @@
 import express from 'express';
-import { buscarUfs, buscarUfId, buscarUfPorNome } from '/servicos/servicos.js';
+import { buscarUfs, buscarUfPorId, buscarUfPorNome } from '/servicos/servicos.js';
 
 const app = express();
 
